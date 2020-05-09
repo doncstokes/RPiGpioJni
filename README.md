@@ -2,7 +2,7 @@
 
 This is a Java Native Interface (JNI) wrapper for the C file "c_gpio.c" from the python RPi.GPIO project
 by Ben Croston stored at https://sourceforge.net/projects/raspberry-gpio-python . This C file is self contained
-and can be easily reused without python. I created this JNI wrapper so that I could access c_gpio.c from Java applications.
+and can be easily reused without python to read/write Raspberry Pi GPIO pins. I created this JNI wrapper so that I could access c_gpio.c from Java applications.
 
 Under the top level directory, you will find two projects. The first is an eclipse Java project that creates the jar file
 featuring the RPiGpio class as an API for Java applications that wish to access Raspberry Pi GPIO. This project also
